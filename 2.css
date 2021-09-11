@@ -1,0 +1,30 @@
+h1 {
+     
+    font-family: 'Zen Loop', cursive;
+    background-color: rgb(236, 185, 42);
+    width: 200px;
+    font-weight: bold;
+ }
+
+
+ 
+ canvas {
+    border: 10px solid black;
+}
+
+body{
+    background-image: url("b.png") ;
+    background-size: cover;
+    background-position: center;
+}
+
+#w1{
+
+  
+    font-family: 'Allison', cursive;
+    font-weight: bold;
+    margin: 0;
+    font-size: 40px;
+    font-weight: bold;
+  
+  }

@@ -1,0 +1,99 @@
+.heading
+  {
+    width: 100%;
+    margin: 0px;
+    box-shadow:10px 10px 10px grey;
+    background-color: lightblue;
+    font-family: 'Allison', cursive;
+    font-weight: bold;
+    font-size: 40px;
+  }
+
+.heading:hover{
+
+  font-family:  'Azeret Mono', monospace;
+  font-weight: bold;
+  font-size: 45px;
+  background-color: blue;
+
+}
+  body{
+    background-image: url("60443-fondo-tecnologico.gif") ;
+    background-size: cover;
+    background-position: center;
+   
+}
+
+  .heading_div
+  {
+    background: white ; 
+    border-radius: 20px; 
+    color: black;
+    box-shadow:5px 5px 5px grey;
+  }
+  .heading_div2
+  {
+    font-size: 18px ;
+  }
+  .result_para_tag
+  {
+    box-shadow:5px 5px 5px grey;
+    font-size: 20px;
+  }
+ 
+.heading2{
+
+  
+  font-family: 'Glory', sans-serif;
+  font-weight: bold;
+  margin: 0;
+  font-size: 20px;
+  font-weight: bold;
+
+}
+
+.copy_right_footer
+  {
+    width: 100%;
+    margin: 0px;
+    bottom: 0;
+    position: fixed;
+    text-align: center;
+    box-shadow:10px 10px 10px grey;
+    background-color: lightblue;
+    font-family: 'Allison', cursive;
+    font-weight: bold;
+    font-size: 40px;
+  }
+
+  .copy_right_footer:hover{
+
+    font-family:  'Azeret Mono', monospace;
+    font-weight: bold;
+    font-size: 45px;
+    background-color: blue;
+  
+  }
+
+  canvas{
+    box-shadow: 5px 5px 5px lightslategray;
+    border: 5px;
+    border-style: solid;
+    border-color: black;
+    background-color: white;
+    margin-top: 130px;
+    animation: Ani 4s infinite;
+    
+}
+
+@keyframes Ani{
+    from{border-color:darkblue blue(0, 191, 255, 0.473); border-width: 8px; border-style:ridge; border-radius: 0px;}
+    to{border-color: rgb(0, 195, 255); border-width: 4px; border-style: solid; border-radius: 30px;}
+    
+}
+
+#h2{
+ 
+margin: 0px;
+
+}
